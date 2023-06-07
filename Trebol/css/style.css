@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(20, 20, 37);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.heart{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: green;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px green;
+   
+}
+
+
+
+.heart2{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    right: 10px;
+    top:50px;
+    background: green;
+    transform: rotate(45deg);
+    box-shadow: -10px 10px 90px green;
+   
+}
+
+.heart3{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    right: 200px;
+    top:50px;
+    background: green;
+    transform: rotate(225deg);
+    box-shadow: -10px 10px 90px green;
+   
+}
+
+.heart4{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    right: 210px;
+    top:102px;
+    background: green;
+    transform: rotate(135deg);
+    box-shadow: -10px 10px 90px green;
+   
+}
+
+
+
+.ladoIzquierdo{
+    position: absolute;
+    content: '';
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: green;
+    border-radius: 35px;
+    box-shadow: -10px 10px 90px green;
+    
+}
+
+.ladoDerecho{
+    content: '';
+    position: absolute;
+    right: -50%;
+    width: 70px;
+    height: 70px;
+    background: green;
+    border-radius: 35px;
+    box-shadow: 10px 10px 90px green;
+
+}
